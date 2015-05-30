@@ -1,0 +1,30 @@
+body { background-color: #ddd; }
+body .panel { width: 400px; margin: 50px auto; border-color: #ccc;}
+body .panel .panel-heading,
+body .panel .panel-footer { 
+    overflow: hidden; padding: 0; line-height: 59px; 
+}
+body .panel .panel-heading a { color: #fff; }
+body .panel .panel-heading a:hover { text-decoration: none; }
+body .panel .panel-heading h4 { width: 35%; float: left; padding: 10px 30px; }
+body .panel .panel-heading h4, 
+body .panel .panel-heading a { text-shadow: 0 0 1px #000; }
+body .panel .panel-heading .action a { 
+    border-left: 1px solid #000; display: block;
+    box-shadow: 0 0 1px #aaa inset;
+    padding: 0 30px;
+    margin: -1px 0 0 0;
+    float: left; line-height: inherit;
+}
+body .panel .panel-body { padding: 40px 30px; }
+body .panel .panel-body .form-group { margin: 0 0 30px; }
+body .panel .panel-body .form-group:not(.last) { box-shadow: 0 0 5px #ddd; background-color: #f1f1f1; border: 1px solid #ccc; border-radius: 4px; }
+body .panel .panel-body .form-group.last { margin: 0; }
+body .panel .panel-body .form-group .form-control {
+    background-color: transparent; border-right-width: 0; box-shadow: none;
+    border-color: transparent;
+    border-radius: 4px 0 0 4px;
+}
+body .panel .panel-body .form-group .form-control:focus { border-color: transparent; }
+body .panel .panel-body .form-group .input-group-addon { border: 0; background-color: transparent; }
+body .panel .panel-footer { border-top-color: transparent; }
